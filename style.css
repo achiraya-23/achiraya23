@@ -1,0 +1,106 @@
+/* พื้นหลัง */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #e3f2fd, #fff9c4);
+    color: #333;
+}
+
+/* ส่วนหัว */
+header {
+    background: linear-gradient(90deg, #1565c0, #ffd54f);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* กล่องเนื้อหา */
+section {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* หัวข้อ */
+h2 {
+    color: #1565c0;
+    border-left: 6px solid #ffd54f;
+    padding-left: 12px;
+}
+
+/* การ์ด */
+.card {
+    background: #f8fbff;
+    border: 2px solid #bbdefb;
+    border-radius: 15px;
+    padding: 18px;
+    margin: 15px 0;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #ffd54f;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* รายการ */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 8px 0;
+}
+
+/* รูปโปรไฟล์ */
+.profile {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #ffd54f;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+/* ปุ่ม */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #1565c0;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0d47a1;
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background: #1565c0;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
